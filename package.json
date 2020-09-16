@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "version": "1.1.0",
+  "description": "commercetools backend engineer exercise",
+  "private": true,
+  "author": {
+    "name": "Khayyam Abdullah",
+    "email": "khay@artistryandfunction.com"
+  },
+  "main": "",
+  "engines": {
+    "node": ">=8.9.3",
+    "npm": ">=5.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArtistryandFunction/ct-backend-engineer-exercise.git"
+  },
+  "license": "ISC",
+  "scripts": {
+    "shops:lookup": "node src/lookupShops.js",
+    "shop:sync": "node src/syncShop.js -s"
+  },
+  "dependencies": {
+    "commander": "^6.1.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.6.1"
+  }
+}
